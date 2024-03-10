@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-color: #504f4f;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #2a2c2b;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    height: 100vh;
+    width: 20vw;
+    padding: 20px;
+}
+
+.navbar img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #f3f0ef;
+}
+
+.navbar a {
+    color: #00ee3b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    transition: all 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #a4b3e3;
+    color: #015214;
+    font-weight: bold;
+}
+
+#conhecimentos {
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-grow: 1;
+    padding: 50px;
+    align-items: center;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    color: white;    
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+span {
+    color: #00ee3b;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#email {
+    padding: 10px;
+    color: #2bf702;
+}
+
+#email:hover {
+    color: black;
+}
+
+.descricao {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    align-content: space-between;
+    gap: 30px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.links a {
+    color: white;
+    transition: all 0.2s;
+}
+
+.links a:hover {
+    color: black;
+}
+
+ol {
+    font-size: 35px;
+    color: white;
+    list-style-type: inherit;
+    padding-left: 40px; 
+    align-items: center;
+    margin: 40px;
+}
+
+ol > h2 {
+    padding: 70px;
+    
+}
+
+
+ol > li {
+    padding-top: 10px;
+    
+}
